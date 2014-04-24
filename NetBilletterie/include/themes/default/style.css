@@ -1,0 +1,666 @@
+
+body {
+background-color   :#454554;
+background-repeat  :no-repeat;
+background-position:center top;
+text-align         : center;
+font-size          :SMALL;
+color              :#422f15;
+
+}
+
+h1 {
+font-family     :arial, sans-serif;
+font-size       :MEDIUM;
+color           :#961a1a;
+background-color:transparent;
+text-align      :center;
+font-weight     : bold;
+}
+
+h2 {
+font-family     :arial, sans-serif;
+font-size       :MEDIUM;
+color           :#5C4040;
+background-color:transparent;
+text-align      :center;
+}
+
+h3 {
+font-family     :verdana, sans-serif;
+font-size       :LARGE;
+color           :#5C4040;
+background-color:transparent;
+text-align      :center;
+font-weight     : bold;
+}
+
+h4 {
+font-family     :verdana, sans-serif;
+font-size       :LARGE;
+color           :#422f15;
+background-color:transparent;
+text-align      :center;
+}
+
+h5 {
+font-family     :verdana, sans-serif;
+font-size       :MEDIUM;
+color           :#422f15;
+background-color:transparent;
+text-align      :center;
+font-weight     : bold;
+}
+
+h6 {
+font-family     :verdana, sans-serif;
+font-size       :MEDIUM;
+color           :#422f15;
+background-color:transparent;
+text-align      :center;
+}
+
+
+p {
+font-family     :verdana, sans-serif;
+font-size       :medium;
+color           :green;
+background-color:transparent;
+text-align      :center;
+margin-left     :0px;
+margin-right    :0px;
+}
+
+li {
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:#422f15;
+background-color:transparent;
+text-align:center;
+margin-left:0px;
+margin-right:0px;
+}
+a:link {
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:blue;
+background-color:transparent;
+text-decoration:underline;
+}
+
+a:visited {
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:#422f15;
+background-color:transparent;
+text-decoration:underline;
+}
+
+a:hover {
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:navy;
+background-color:transparent;
+text-decoration:underline;
+}
+
+
+.tbrien {
+border-color:#422f15;
+border-style:solid;
+border-width:0px;
+text-align:left;
+border-spacing: 1px 
+}
+
+
+.rien {
+border-style:solid; 
+border-width:0px; 
+border-color:#422f15; 
+background-color:transparent;
+}
+rien.rien2 {
+background-color:#FFFFCC;
+}
+
+div#bandeau {
+width:1000px;
+height:170px;
+background-color:#CEA062;
+padding: 10px;
+}
+div#bandeau2 {
+width:1000px;
+height:600px;
+background-color:#CEA062;
+padding: 10px;
+}
+div#contenu {
+width:1100px;
+height:630px;
+
+}
+div#piedpage {
+width:1000px;
+height:100px;
+background-color:#BFBFBF;
+}
+div#pied {
+position: relative;
+height:250px;
+}
+
+div#pied_gauche {
+font-size:large;
+position: absolute;
+top: 30px;
+left: 1em;
+width:30%;
+}
+
+div#pied_centre{ 
+width:30%;
+position: absolute;
+top: 30px;
+right: 30%;
+}
+
+div#pied_droite {
+width:30%;
+position: absolute;
+top: 30px;
+right: 1em;
+}
+
+div#bloprojection {
+background-color: #A9A4A4;
+color:#000000;
+margin: 5px 5px;
+padding-bottom: 10px;
+float:left;
+width:195px;
+height:180px;
+font-weight:bold
+}
+
+table {
+border-color:#422f15;
+border-style:solid;
+border-width:0px;
+text-align:center;
+border-spacing: 1px;
+}
+
+caption {
+background-color: #CEA062;
+font-size:MEDIUM;
+color:#5E3D5E;
+font-weight: bold;
+text-align:center;
+}
+
+table.page {
+width:870px;
+border-style:solid;
+border-width:0px;
+border-spacing: 10px ;
+border:thin solid #BBBBBB;
+margin-left: auto; 
+margin-right: auto;
+}
+
+tr {
+font-family:verdana, sans-serif;
+font-size:x-small;
+color:#000000;
+text-align: center;
+padding:4px;
+vertical-align: top;
+border-color:grey;
+border: 1px;
+background-color:#E5E5E5;
+}
+
+tr.texte0 {
+background-color: #E5E5E5;
+text-align: center;
+border-width:1px;
+}
+
+tr.highlight{
+font-family:verdana, sans-serif;
+font-size:x-small;
+color:#000000;
+text-align: center;
+padding:4px;
+vertical-align: top;
+border: 0px none;
+background-color:#E89E6E;
+border-color:grey;
+}
+
+tr.texte1 {
+background-color: #BFBFBF;
+text-align: center;
+border-width:1px;
+}
+
+td.nombre1 {
+background-color: #BFBFBF;
+text-align: center;
+}
+
+th {
+background-color: #C79546;
+color:#4F4FD0;
+Font-size:1.3em;
+font-weight: bold;
+text-align: center;
+}
+th a:link{
+background-color: #C79546;
+color:#4F4FD0;
+text-align: center;
+font-weight: bold;
+
+}
+th a:visited{
+background-color: #C79546;
+color:#4F4FD0;
+font-weight: bold;
+text-align: center;
+
+}
+th a:hover{
+background-color: #C79546;
+color:#4F4FD0;
+font-weight: bold;
+text-align: center;
+
+}
+/*
+td {
+font-family:verdana, sans-serif;
+font-size:x-small;
+color:#000000;
+text-align: left;
+padding:4px;
+vertical-align: top;
+border: 1px;
+background-color:#E5E5E5;
+}
+*/
+td.highlight {
+font-family:verdana, sans-serif;
+font-size:x-small;
+color:#000000;
+text-align: center;
+padding:4px;
+vertical-align: top;
+border: 1px ;
+}
+
+td.page{
+text-align:center;
+}
+
+td.td2{
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:#000000;
+text-align:center;
+background-color:#99DEFF;
+border-color:transparent;
+border-style:solid;
+border-width:0px;
+padding:0;
+}
+td.texte0 {
+background-color: #E5E5E5;
+text-align: center;
+}
+td.texte_left {
+background-color: #E5E5E5;
+text-align: left;
+}
+
+td.nombre0 {
+background-color: #E5E5E5;
+text-align: center;
+}
+
+td.install {
+background-color: #bbbbbb;
+text-align: center;
+width: 150px;
+}
+
+
+td.texte1 {
+background-color: #BFBFBF;
+text-align: center;
+}
+
+.photo { 
+background-color:#fafbfc; 
+border:1px solid #b0b0b0; 
+margin:3px; 
+}
+
+.OPTION { 
+background-color: #FFEFD5 ; 
+}
+
+.SELECT { 
+background-color: 
+#FFEFD5 ; 
+}
+
+.TEXTAREA { 
+background-color: #FFEFD5 ; 
+color: red ; 
+}
+
+.BUTTON { font-family: arial, helvetica, sans-serif ; 
+border-width: 2pt ;
+font-size: 16pt ; 
+color: #422f15 ; 
+top: 250px ; 
+background-color: #F5DEB3 ; 
+}
+
+.libelle {
+background-color: #E5E5E5;
+text-align: left;
+}
+
+.titre {
+background-color:#7F7F7F;
+border: 2px ;
+}
+
+.boiteaction {
+background-color:#6B1C0F;
+width:96%;
+text-align:center;
+}
+
+.td2montant{
+background-color:#E5E5E5;
+border-color:transparent;
+}
+
+.td3{
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:#000000;
+text-align:left;
+background-color:#CC6633;
+border-color:transparent;
+border-style:solid;
+border-width:0px;
+padding:0;
+}
+
+.td4{
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:#000000;
+text-align:left;
+background-color:transparent;
+}
+
+.tdgraph{
+font-family:verdana, sans-serif;
+font-size:SMALL;
+color:#000000;
+text-align:left;
+background-image:url(../image/fond.gif);
+border-color:transparent;
+border-style:solid;
+border-width:1px;
+padding:0;
+}
+
+.titretableau {
+background-color: #CEA062;
+color: #000000;
+}
+
+
+.submit {
+background-color: #CEA062;
+color:red;
+font-weight: bold;
+text-align: center;
+}
+
+.totaltexte {
+font-size:SMALL;
+background-color: #C79546;
+color:red;
+font-weight: bold;
+}
+
+.totalmontant {
+font-size:SMALL;
+color:red;
+font-weight: bold;
+text-align:right;
+background-color: #C79546;
+}	
+.boiteaction td, form, input {
+padding: 0;
+margin: 0;
+} 
+
+/***** menu CSS *****/
+@media print {
+/*A l'impression on cache le menu, marche au moins pour IE, Moz et Opéra.*/
+.menu, .ssmenu {
+visibility:hidden;
+}
+}
+
+.menu, .ssmenu {
+/* Il est important de laisser une largeur, au cas où le Javascript soit désactivé.
+margin aussi */
+background-color:#AA8922;
+font-size:12px;
+font-weight:bold;
+border:0px solid #EFB;
+color:#ffffcc;
+color:white;
+width:150px;
+padding:5px;
+margin:1em;
+}
+
+.menu {
+text-align:center;
+background:#CEA062;
+border-color:#004455;
+
+}
+.ssmenu {
+background:#CEA062;
+border-color:#ABCDEF;
+}
+
+.menu span, .ssmenu span {
+/* pour cacher les ; en fin de <li>, ce qui permet aux synthèse vocales de prendre une
+pause dans l'élocution */
+display:none;
+}
+
+.ssmenu ul, .ssmenu li {
+/* Les items (les <li>) des sous-menus, notamment pour enlever les puces des liste */
+padding:0;
+margin:0;
+list-style-type:none;
+}
+
+.menu a:link, .ssmenu a:link, .menu a:visited, .ssmenu a:visited {
+/* Les liens qui ne sont pas sous le curseur. */
+font-family:MS Sans Serif, sans-serif, Verdana, Arial;
+text-decoration:none;
+color:#FEB;
+padding:2px 0px;
+/* Ne pas modifier le block */
+display:block;
+/*	Un width:100% fait planter Mozilla, sans le width:100% c'est IE et Opera... La combinaison
+aucun width et height:100% marche sur tous, donc ne pas toucher ces 2 lignes */
+height:100%;
+margin:0px;
+margin:0px;
+/*	width:100%;*/
+voice-family: "\"}\"";
+voice-family:inherit;
+}
+.menu a, .ssmenu a, .menu a:visited, .ssmenu a:visited {
+width :auto;
+}
+
+.ssmenu ul:hover, .ssmenu a:hover, .ssmenu a:focus, .menu a:hover, .menu a:focus {
+/* Les liens sous le curseur.
+On change les couleurs du texte et de fond, et on enlève le soulignement.
+*/
+background-color:#C79546;
+color:#034;
+text-decoration:none;
+}
+.pagination {background-color:#CEA062; }
+.pagination a {color: #6B1C0F; font-size: large }
+.pagination a:hover {color: red; text-decoration: none;}
+.pagination a:visited {color: red; text-decoration: none;} 
+
+/*AGENDA*/
+.liste{
+width:250px;
+margin-bottom:3px;
+margin-top:30px;
+background-color:#f0f0f0;
+color:#000000;
+border: 3px solid #999900;
+}
+.tableau {
+margin-top:0px;
+border: medium solid #000;
+border-collapse: collapse;
+margin-left:auto;
+margin-right:auto;
+width:700px;
+height:300px;
+text-align:left;
+cursor:default;
+
+}
+.tableau caption
+{
+text-align:center;
+background-color:#000;
+font-family:"Trebuchet MS",Verdana,Helvetica,sans-serif;
+font-weight:bold;
+font-size:20pt;
+color:#999900;
+padding:25px;
+margin-top:3px;
+}
+.tableau th {
+font-family:"Myriad Pro Light",Verdana,Helvetica,sans-serif;
+border: thin solid #999999;
+padding: 2px;
+background-color: #dee072;
+font-size:20px;
+font-weight:bold;
+text-align:center;
+}
+.tableau td {
+font-family      :Verdana, Arial, Helvetica,serif;
+border           : thin solid #999999;
+padding          : 10px;
+font-weight      :bold;
+cursor           :pointer;
+}
+.desactive
+{
+background-color :#dddddd;
+}
+td.ferier
+{
+background-color :#9cbdfb;
+}
+.special
+{
+background-color :#16f26e;
+color            :#990000;
+text-decoration  :blink;
+}
+#notif
+{
+padding          :5px 10px;
+margin-top       :10px;
+border           :2px solid #000000;
+width            :250px;
+background-color :#996633;
+color            :#FFFFFF;
+font-size        :15pt;
+}
+#lien {margin-top:20px;}
+#lien a,#lien a  :visited{
+padding          :10px 30px;
+background-color :#336633;
+color            :#FFFFFF;
+border           :1px solid #333333;
+text-decoration  :none;
+}
+#lien a          :hover{
+background-color :#339900;
+}
+
+#btn_up
+{
+position         : fixed;
+bottom           : 15px;
+right            : 25px;
+cursor           : pointer;
+display          :none;
+}
+/* Page d'attente avec barre de progression*/
+.bar, .progression{
+display              : block;
+height               : 20px;
+width                : 500px;
+
+-moz-border-radius   : 15px;
+-webkit-border-radius: 15px;
+-o-border-radius     : 15px;
+border-radius        : 15px;
+}
+
+.bar{
+background-color     : white;
+margin-left          : auto;
+margin-right         : auto;
+-moz-box-shadow      : 1px 1px 4px #999;
+-webkit-box-shadow   : 1px 1px 4px #999;
+-o-box-shadow        : 1px 1px 4px #999;
+box-shadow           : 1px 1px 4px #999;
+}
+.progression{
+background-color     : #158bc8;
+}
+.precent{
+color                : white;
+display              : block;
+text-align           : center;
+}
+
+
+/*
+Bref... pour résumer, ce qu'il y a à modifier à la base, c'est :
+- couleurs, police, bordure et largeur des menu et ssmenu.
+- l'effet spécial IE pour les ssmenu
+- police et couleurs des liens "non survolés" et "survolés".
+*/

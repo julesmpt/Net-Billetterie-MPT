@@ -1,0 +1,40 @@
+
+<style type="text/css">
+
+page{
+font-size: 10px;
+}
+
+
+table.liste {
+font-size: 10px;
+border: solid 5px #7F7F7F; 
+width:500pt;
+text-align: center;
+}
+table.liste td{ 
+background: #fefefe; 
+border:0px solid;
+border-left: 1px solid;
+}
+
+table.liste td.top{
+	border-top:2px solid black;
+}
+table.liste td.left{
+	border-left:2px solid black;
+}
+table.liste th{ 
+background-color: #cecece; 
+border-left:1px solid;
+}
+table.liste td.col1 { 
+color: #FF0000;
+border: solid 1px ; 
+}
+div{
+padding-left:120px;
+}
+
+</style>
+<style media="print" type="text/css">   .noImpr {   display:none;   } </style> 

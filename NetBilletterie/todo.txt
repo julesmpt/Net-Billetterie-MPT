@@ -1,0 +1,45 @@
+Fichier modifier le 27/08/2012
+
+ini_set('magic_quotes_gpc', 1);
+
+quand même plus simple que d'aller bidouiller des arrays pour le plaisir...
+
+PS : j'ai pas testé avec le '1', si ca chie, tester en mettant 'true' a la place
+
+// Annule les magic quotes si activées
+if(get_magic_quotes_gpc()){
+	function stripslashes_deep($value) {
+		return (is_array($value)) ? array_map('stripslashes_deep', $value) : stripslashes($value);
+	}
+	$_GET    = array_map('stripslashes_deep', $_GET);
+	$_POST   = array_map('stripslashes_deep', $_POST);
+	$_COOKIE = array_map('stripslashes_deep', $_COOKIE);
+}
+
+
+
+Ajout de libellé dans le formulaire 'bar et billetterie'
+form_caisse.php-> c'est fait
+caisse_new.php-> c'est fait
+lister_caisse.php en lister_caisse_billetterie.php-> c'est fait
+Créer lister_caisse_bar.php-> c'est fait
+menu1,2,3,5.php-> c'est fait
+form_edit_caisse.php-> c'est fait
+delete_caisse.php-> c'est fait
+Pour n'afficher que les spectateurs actif ajout de la condition "AND actif='y'" sur 
+lister_client.php-> c'est fait
+form_commande_attente.php-> c'est fait
+form_commande.php-> c'est fait
+chercher_comande.php-> c'est fait
+client_update.php-> c'est fait
+edit_client.php-> c'est fait
+Création lister_clients_inactifs.php -> c'est fait
+Création form_article_duplic.php et a finir -> c'est fait
+Module mailing passe par swiftmailer Avec gestion de paquet de 40 toutes les 30secondes-> C'est fait
+
+Reste A faire :
+pour la gestion des caisses ->Impression en pdf liste detaillé avec choix d'intervale de date
+Envoyer des mail qu'au spectateurs qui ont une resa ou abon dans la saison
+Créer page avec stat des spectateurs en fonction des saisons
+A faire Gestion de l'impression des billets
+Comptabiliser l'impresion et les duplicatats
